@@ -1,6 +1,6 @@
 [alias]
 	# Commit all changes
-	c = commit -avm
+	c = commit -a -v -m
 	up = pull
 	p = push
 	s = status
