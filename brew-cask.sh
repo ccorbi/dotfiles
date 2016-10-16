@@ -11,39 +11,32 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 # daily
-brew cask install spectacle
+brew cask install skype
 brew cask install dropbox
-brew cask install gyazo
-brew cask install 1password
-brew cask install rescuetime
+brew cask install lastpass
 brew cask install flux
+brew cask install the-unarchiver
 
 # dev
+brew cask install anaconda
 brew cask install iterm2
+brew cask install sequel-pro
 brew cask install sublime-text
-brew cask install imagealpha
-brew cask install imageoptim
+brew cask install atom
+brew cask install slack
 
-# fun
-brew cask install limechat
-brew cask install miro-video-converter
-brew cask install horndis               # usb tethering
+# science
+brew cask install papers
 
 # browsers
-brew cask install google-chrome-canary
-brew cask install firefoxnightly
-brew cask install webkit-nightly
-brew cask install chromium
-brew cask install torbrowser
+brew cask install firefox
+
 
 # less often
-brew cask install disk-inventory-x
-brew cask install screenflow
+brew cask install daisydisk
+brew cask install transmission
 brew cask install vlc
-brew cask install gpgtools
-brew cask install licecap
-brew cask install utorrent
-
+brew cask install onyx
 
 # Not on cask but I want regardless.
 
