@@ -1,13 +1,11 @@
 #!/bin/bash
-
 # Install command-line tools using Homebrew
 
+# START
 # Make sure we’re using the latest Homebrew
 brew update
-
 # Upgrade any already-installed formulae
 brew upgrade
-
 
 # GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
@@ -17,13 +15,13 @@ brew install findutils
 # GNU `sed`, overwriting the built-in `sed`
 brew install gnu-sed --with-default-names
 
-
 # Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 brew install bash
 brew tap homebrew/versions
 brew install bash-completion2
 
+# Cask
 brew install homebrew/completions/brew-cask-completion
 
 # generic colouriser  http://kassiopeia.juls.savba.sk/~garabik/software/grc/
@@ -37,14 +35,13 @@ brew install vim --with-override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-
+brew install homebrew/dupes/tcl-tk --enable-threads --with-x11
 
 # run this script when this file changes guy.
-brew install entr
+# brew install entr
 
 # github util. imho better than hub
 brew install gh
-
 
 # mtr - ping & traceroute. best.
 brew install mtr
@@ -56,24 +53,31 @@ brew install mtr
 
 
 # Install other useful binaries
-brew install the_silver_searcher
-brew install fzf
+# brew install the_silver_searcher
+# brew install fzf
 
 brew install git
 brew install imagemagick --with-webp
-brew install node # This installs `npm` too using the recommended installation method
-brew install pv
+# brew install node # This installs `npm` too using the recommended installation method
+# brew install pv
 brew install rename
 brew install tree
 brew install zopfli
 brew install ffmpeg --with-libvpx
 
-brew install terminal-notifier
+# brew install terminal-notifier
 
-brew install android-platform-tools
+# brew install android-platform-tools
 brew install pidcat   # colored logcat guy
 
-brew install zsh
+# brew install zsh
+
+# science
+brew install python --with-brewed-tk
+brew install pymol
+
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+# END
