@@ -142,6 +142,12 @@ print_success() {
 #
 
 
+# sublime
+# need improvmetnt to import snippets
+if [[ `uname` == 'Darwin' ]]; then
+  link "$(pwd)/sublime/Packages/User/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+fi
+
 # finds all .dotfiles in this folder
 declare -a FILES_TO_SYMLINK=$(find . -type f -maxdepth 1 -name ".*" -not -name .DS_Store -not -name .git -not -name .osx | sed -e 's|//|/|' | sed -e 's|./.|.|')
 FILES_TO_SYMLINK="$FILES_TO_SYMLINK .vim bin .config/fish" # add in vim and the binaries
