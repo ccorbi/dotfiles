@@ -5,7 +5,7 @@
 ## Setup
 #### installing & using
 
-* fork this to your own acct
+* fork this to your own act
 * clone that repo
 * read and run parts of `setup-a-new-machine.sh`
 * read and run `symlink-setup.sh`
@@ -40,7 +40,7 @@ Basically it makes typing into the prompt amazing.
 
 
 ### Moving around in folders (`z`, `...`, `cdf`)
-`z` helps you jump around to whatever folder. It uses actual real magic to determine where you should jump to. Seperately there's some `...` aliases to shorten `cd ../..` and `..`, `....` etc. Then, if you have a folder open in Finder, `cdf` will bring you to it.
+`z` helps you jump around to whatever folder. It uses actual real magic to determine where you should jump to. Separately there's some `...` aliases to shorten `cd ../..` and `..`, `....` etc. Then, if you have a folder open in Finder, `cdf` will bring you to it.
 ```sh
 z dotfiles
 z blog

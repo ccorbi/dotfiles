@@ -18,7 +18,7 @@ brew cask install flux
 brew cask install the-unarchiver
 
 # dev
-brew cask install anaconda
+
 brew cask install iterm2
 brew cask install sequel-pro
 brew cask install sublime-text

@@ -14,7 +14,9 @@
 # brew leaves      		> brew-list.txt    # all top-level brew installs
 # brew cask list 			> cask-list.txt
 
-
+# Atom `Packages
+# apm list --installed --bare > package-list.txt
+#
 # then compare brew-list to what's in `brew.sh`
 #   comm <(sort brew-list.txt) <(sort brew.sh-cleaned-up)
 

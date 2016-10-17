@@ -1,0 +1,46 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "76679878-9373-4d5c-ad53-293bbe7b46a0"
+    python:
+      max_line_length: 99
+  "autocomplete-python":
+    pythonPaths: "/anaconda/bin/python"
+    useSnippets: "required"
+  core:
+    disabledPackages: [
+      "activate-power-mode"
+      "git-time-machine"
+      "python-tools"
+      "linter-pylama"
+    ]
+  editor:
+    fontSize: 12
+    preferredLineLength: 99
+    tabLength: 4
+  "exception-reporting":
+    userId: "9fa3cd8b-5b80-6c6d-b83b-4f5963353743"
+  linter:
+    errorPanelHeight: 195
+  "linter-pylama": {}
+  "linter-python": {}
+  "markdown-writer":
+    fileExtension: ".md"
+  minimap: {}
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.md"
+    ]
+  welcome:
+    showOnStartup: false
+".console.python.text":
+  editor:
+    tabLength: 4
+".python.text.traceback":
+  editor:
+    tabLength: 4

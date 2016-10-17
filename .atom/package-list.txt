@@ -1,0 +1,14 @@
+activate-power-mode@1.0.2
+atom-beautify@0.29.13
+autocomplete-python@1.8.6
+git-plus@5.18.0
+git-time-machine@1.5.3
+linter@1.11.18
+linter-pylama@0.7.4
+linter-pylint@1.2.2
+markdown-pdf@1.5.0
+markdown-writer@2.6.1
+minimap@4.25.0
+python-tools@0.6.8
+
+
