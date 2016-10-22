@@ -1,7 +1,7 @@
 # This prompt inspired by gf3, sindresorhus, alrra, and mathiasbynens.
 # but customized to me. <3
 
-default_username='paulirish'
+default_username='ccorbi'
 
 
 if which thefuck > /dev/null; then
@@ -41,7 +41,7 @@ set_prompts() {
         black=$(tput setaf 0)
         blue=$(tput setaf 33)
         cyan=$(tput setaf 37)
-        green=$(tput setaf 190)
+        green=$(tput setaf 040)
         orange=$(tput setaf 172)
         purple=$(tput setaf 141)
         red=$(tput setaf 124)
@@ -85,7 +85,10 @@ set_prompts() {
         userhost+="${orange}$HOSTNAME "
         userhost+="${white}in"
 
-        if [ $USER != "$default_username" ]; then echo $userhost ""; fi
+        if [ $USER != "$default_username" ]; then echo $userhost "";
+        else
+            echo ${orange}$HOSTNAME;
+        fi
     }
 
 
@@ -142,6 +145,7 @@ set_prompts() {
     PS1+="\n"
     PS1+="\[$reset$white\]\\$ \[$reset\]"
 
+    # PS1='\u@\h:\[\033[0;33m\]\w\[\033[0m\] \$ '
     export PS1
 
     # ------------------------------------------------------------------

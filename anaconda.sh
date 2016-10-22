@@ -1,3 +1,4 @@
+# check operation system, 
 wget --no-verbose -O anaconda.sh https://repo.continuum.io/miniconda/Miniconda2-latest-MacOSX-x86_64.sh;
 bash anaconda.sh -b -p $HOME/anaconda
 export PATH="$HOME/anaconda/bin:$PATH"

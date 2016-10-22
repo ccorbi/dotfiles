@@ -31,9 +31,13 @@ alias ag='ag -f --hidden'
 alias dir='ls -al |grep ^d' # only directories
 alias lsd='ls -l | grep "^d"' # only directories
 alias ll='ls -rtlh'
-alias h='history'
+
 alias la='ll -a'
 alias l='ls -CF'
+
+# History
+alias h='history'
+alias hgrep='history |grep'
 
 # use coreutils `ls` if possible…
 hash gls >/dev/null 2>&1 || alias gls="ls"
