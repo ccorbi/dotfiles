@@ -75,6 +75,7 @@ alias master="git checkout master"
 
 # Networking. IP address, dig, DNS
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
 # LAB CONNECTIONS
 alias sbeagle='ssh -X 192.168.6.201'
 alias sworkstation='ssh -X 192.168.6.107'
