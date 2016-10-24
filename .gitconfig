@@ -1,6 +1,6 @@
 [alias]
 	# Commit all changes
-	c = commit -a -v -m
+	c = commit -a
 	up = pull
 	p = push
 	s = status
@@ -118,17 +118,17 @@
 	tool = opendiff
 
 # rewrites of repo paths
-[url "git@github.com:"]
-	insteadOf = "gh:"
-	insteadOf = "git://github.com"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-    pushInsteadOf = "https://github.com/"
-[url "git@gist.github.com:"]
-	insteadOf = "gst:"
-	pushInsteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
-	pushInsteadOf = "https://gist.github.com/"
+# [url "git@github.com:"]
+#	insteadOf = "gh:"
+#	insteadOf = "git://github.com"
+#	pushInsteadOf = "github:"
+#	pushInsteadOf = "git://github.com/"
+#    pushInsteadOf = "https://github.com/"
+#[url "git@gist.github.com:"]
+#	insteadOf = "gst:"
+#	pushInsteadOf = "gist:"
+#	pushInsteadOf = "git://gist.github.com/"
+#	pushInsteadOf = "https://gist.github.com/"
 
 # correct typos
 [help]
