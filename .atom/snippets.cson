@@ -133,7 +133,7 @@
     'body': 'if __name__ == \'__main__\':\n\t${1:main()}$0'
   'open a file':
     'prefix': 'with'
-    'body': 'with open(filename,\'r\') as input_file:\n\tfor line in input_file:\n\ttab_data = line.split($0)'
+    'body': 'with open(filename,\'r\') as input_file:\n\tfor line in input_file:\n\t\ttab_data = line.split($0)'
   'docstring':
     'prefix': 'docstring'
     'body': '\"\"\"${1:One liner description}.\n\nParameters\n----------\n${2}\nReturns\n-------\n${3}\n\"\"\"'
