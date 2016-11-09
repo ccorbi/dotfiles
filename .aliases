@@ -14,7 +14,7 @@ alias hgrep='history |grep'
 
 # mv, rm, cp
 alias mv='mv -v'
-alias rm='rm -i -v'
+alias rm='rm -f -v'
 alias cp='cp -v'
 
 alias cask='brew cask' # i <3 u cask
@@ -76,11 +76,7 @@ alias master="git checkout master"
 # Networking. IP address, dig, DNS
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
-# LAB CONNECTIONS
-alias sbeagle='ssh -X 192.168.6.201'
-alias sworkstation='ssh -X 192.168.6.107'
-alias sscinet='ssh -X login.scinet.utoronto.ca'
-alias sbanting='ssh -X bc2.ccbr.utoronto.ca'
+
 
 # alias dig="dig +nocmd any +multiline +noall +answer"
 
