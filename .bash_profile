@@ -38,7 +38,7 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 ##
 
 # timestamps for later analysis. www.debian-administration.org/users/rossen/weblog/1
-export HISTTIMEFORMAT='%F %T '
+# export HISTTIMEFORMAT='%F %T '
 
 # keep history up to date, across sessions, in realtime
 #  http://unix.stackexchange.com/a/48113
