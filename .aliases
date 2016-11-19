@@ -7,23 +7,14 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
-
+# Disk Usage
 alias du='du -h'
 alias df='df -h'
-alias hgrep='history |grep'
 
 # mv, rm, cp
 alias mv='mv -v'
 alias rm='rm -f -v'
 alias cp='cp -v'
-
-alias cask='brew cask' # i <3 u cask
-alias where=which # sometimes i forget
-alias brwe=brew  #typos
-
-alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
-
-alias ag='ag -f --hidden'
 
 ###
 # time to upgrade `ls`
@@ -38,6 +29,19 @@ alias l='ls -CF'
 # History
 alias h='history'
 alias hgrep='history |grep'
+alias hstats='history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n10'
+
+# homebrew
+alias cask='brew cask' # i <3 u cask
+alias brwe=brew  #typos
+
+alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
+
+alias ag='ag -f --hidden'
+
+alias where=which # sometimes i forget
+
+
 
 # use coreutils `ls` if possible…
 hash gls >/dev/null 2>&1 || alias gls="ls"
