@@ -201,3 +201,5 @@ yaml
 yapf
 zeromq
 zlib
+jupyter_nbextensions_configurator
+jupyter_contrib_nbextensions
