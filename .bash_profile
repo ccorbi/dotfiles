@@ -115,3 +115,4 @@ shopt -s nocaseglob;
 # Autocorrect typos in path names when using `cd`
 # autocorrect names of folder without warning can be confusing
 # shopt -s cdspell;
+

@@ -15,5 +15,10 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 command -v gdircolors >/dev/null 2>&1 || alias gdircolors="dircolors"
 eval "$(gdircolors -b ~/.dircolors)"
 
+
+# Export bin
+export PATH="$HOME/bin:$PATH"
+
+
 # added by Anaconda2 2.5.0 installer
 export PATH="/anaconda/bin:$PATH"
